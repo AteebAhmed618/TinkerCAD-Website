@@ -1,0 +1,192 @@
+/* General Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #3b82f6;
+}
+
+header .logo {
+    font-size: 24px;
+    color: #fff;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header .btn {
+    background-color: #10b981;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero {
+    height: 80vh;
+    background: url('images/hero.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    color: #fff;
+}
+
+.hero-content p {
+    font-size: 24px;
+    color: #fff;
+}
+
+.hero-content .btn {
+    background-color: #10b981;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.image-section {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 0;
+}
+
+.image-card {
+    text-align: center;
+}
+
+.image-card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.course-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 0;
+}
+
+.course {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.course h3 {
+    color: #3b82f6;
+}
+
+.course .btn {
+    background-color: #10b981;
+    padding: 10px 20px;
+    color: white;
+}
+
+.about, .contact {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #3b82f6;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* Navigation Bar Styling */
+nav {
+    position: fixed; /* Fixes the navbar to the top */
+    top: 0;          /* Sticks to the top */
+    left: 0;         /* Sticks to the left */
+    width: 100%;     /* Makes the navbar stretch across the screen */
+    background-color: #333; /* Customize the background color */
+    z-index: 1000;   /* Keeps the navbar on top of other content */
+    display: flex;   /* Flexbox for easy alignment */
+    justify-content: space-between; /* Distributes items evenly */
+    align-items: center;
+    padding: 10px 20px; /* Adjusts the padding */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+/* Links inside the navbar */
+nav a {
+    color: white; /* Link text color */
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Links hover effect */
+nav a:hover {
+    background-color: #575757; /* Change background on hover */
+    color: white;
+}
+
+/* Add padding to body to prevent content overlap */
+body {
+    margin: 0;
+    padding-top: 70px; /* Adjust based on the height of the navbar */
+}
+
+nav {
+    background-color: #333; /* Adjust the background color as needed */
+    padding: 20px 20px; /* Add padding to the top and bottom */
+}
+
+nav ul {
+    display: flex; /* Maintain the flex display */
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Reset padding */
+    margin: 0; /* Reset margin */
+}
+
+nav ul li {
+    margin-right: 20px; /* Space between links */
+}
+
+nav ul li a {
+    color: white; /* Adjust link color */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Make the font bold */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
